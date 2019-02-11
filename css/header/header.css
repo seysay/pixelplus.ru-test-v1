@@ -1,0 +1,40 @@
+.wrapper{
+  position: relative;
+  min-height: 100%;
+}
+.block-logo{
+  margin:24px 0 20px 25px;
+  position:relative;
+  float: left;
+}
+.block-logo-center{
+  width: 279px;
+  height: 108px;
+  background-color:#777777;
+  margin:24px 0 20px 20px;
+  float: left;
+}
+.block-logo-right{
+  width: 513px;
+  height: 108px;
+  background-color:#777777;
+  margin:24px 0 20px 20px;
+  left: 496px;
+  top: 0;
+  float: left;
+}
+.block-logo-contact{
+  text-align: right;
+  margin-right: 20px;
+  margin-top:20px;
+  color: white;
+}
+.block-logo-contact a{
+  color: white;
+}
+hr{
+  position: relative;
+  width: 955px;
+  margin-left:25px;
+  color:#000000;
+}
