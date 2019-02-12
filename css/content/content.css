@@ -1,9 +1,8 @@
 .content{
-  margin-bottom: 250px;
+
 }
 .block-left-sidebar{
   background-color: #777777;
-  margin-left: 25px;
   width:184px;
   position:relative;
   float: left;
@@ -24,7 +23,7 @@
   width:757px;
   height: 210px;
   margin-top:20px;
-  margin-left: 220px;
+  margin-left: 200px;
   padding:5px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -40,14 +39,13 @@
 }
 
 .flex-container-square{
-  margin:10px;
+  margin-left: 20px;
+  margin-top: 10px;
 
 }
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  width: 780px;
-  margin-top: 10px;
 }
 .flex-container-2{
   display: flex;
@@ -60,13 +58,11 @@
   background-color: #dcdcdc;
   margin:20px;
   margin-left: 10px;
-
 }
 .block-left-sidebar-down{
   background-color: #777777;
   width:184px;
   height:134px;
-  margin-left: 25px;
   float: left;
   margin-top: 85px;
 }
