@@ -1,12 +1,17 @@
 .content{
 
 }
+.wrapper-block-left-sidebar{
+  position: relative;
+  min-width: 184px;
+}
 .block-left-sidebar{
   background-color: #777777;
   width:184px;
+  height: 335px;
   position:relative;
   float: left;
-
+  overflow: auto;
 }
 .block-left-sidebar h2{
   color:#ffffff;
@@ -16,8 +21,12 @@
   list-style: none;
   color:#ffffff;
   margin-left: 10px;
+
 }
 /*center content*/
+.wrapper-block-center-content{
+
+}
 .block-center-content{
   background-color: #dcdcdc;
   width:757px;

@@ -1,34 +1,54 @@
-.header{
-  max-width: 960px;
-  margin: 0 auto;
-  overflow: auto;
-}
 .wrapper{
   position: relative;
   min-height: 100%;
   max-width: 960px;
   margin: 0 auto;
 }
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.header{
+  min-width: 960px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+.wrapper-block-logo{
+  min-width: 122px;
+  margin-right: 24px;
+}
 .block-logo{
-  margin:12px 0 20px 0;
-  position:relative;
-  float: left;
+  margin-top:10px;
+  margin-right:24px;
+  width:122px;
+  height:108px;
+}
+.wrapper-block-logo-center{
+  min-width: 279px;
+  margin-right: 24px;
 }
 .block-logo-center{
+  margin-top:20px;
   width: 279px;
   height: 108px;
   background-color:#777777;
-  margin:24px 0 20px 20px;
-  float: left;
+  margin-right: 24px;
+}
+.wrapper-block-logo-right{
+  min-width: 513px;
 }
 .block-logo-right{
-  width: 513px;
+  margin-top:20px;
+  min-width: 513px;
   height: 108px;
   background-color:#777777;
-  margin:24px 0 20px 20px;
-  left: 496px;
-  top: 0;
-  float: left;
 }
 .block-logo-contact{
   text-align: right;
@@ -41,6 +61,7 @@
 }
 hr{
   position: relative;
+  margin-top:20px;
   width: 955px;
   color:#000000;
 }

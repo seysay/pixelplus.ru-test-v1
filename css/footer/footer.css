@@ -16,6 +16,7 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   position: relative;
+  overflow: auto;
 }
 .block-footer-left ul{
   list-style: none;
@@ -38,6 +39,7 @@
   box-sizing: border-box;
   margin-bottom: 20px;
   position: relative;
+  overflow: auto;
 }
 .block-footer-center li{
   color: white;
