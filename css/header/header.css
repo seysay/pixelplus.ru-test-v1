@@ -53,8 +53,10 @@
 .block-logo-contact{
   text-align: right;
   margin-right: 20px;
-  margin-top:20px;
   color: white;
+}
+.block-logo-contact span{
+  margin-top:1px;
 }
 .block-logo-contact a{
   color: white;

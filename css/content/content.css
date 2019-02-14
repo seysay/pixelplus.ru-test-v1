@@ -1,16 +1,19 @@
 .content{
-
+display: flex;
 }
 .wrapper-block-left-sidebar{
-  position: relative;
   min-width: 184px;
+  margin-top:20px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  height: 775px;
 }
 .block-left-sidebar{
   background-color: #777777;
   width:184px;
   height: 335px;
   position:relative;
-  float: left;
   overflow: auto;
 }
 .block-left-sidebar h2{
@@ -25,6 +28,8 @@
 }
 /*center content*/
 .wrapper-block-center-content{
+height: 772px;
+  width:959px;
 
 }
 .block-center-content{
@@ -32,7 +37,7 @@
   width:757px;
   height: 210px;
   margin-top:20px;
-  margin-left: 200px;
+  margin-left: 20px;
   padding:5px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -49,30 +54,31 @@
 
 .flex-container-square{
   margin-left: 20px;
-  margin-top: 10px;
+  margin-top: 18px;
 
 }
 .flex-container {
   display: flex;
   flex-wrap: wrap;
+  width: 770px;
+  height: auto;
+
 }
 .flex-container-2{
   display: flex;
-  flex-direction: row;
-  margin-left:200px;
+  margin: 20px 0 0 20px;
+  justify-content: space-between;
 }
 .flex-container-rows{
-  width:358px;
+  width:368px;
   height:200px;
   background-color: #dcdcdc;
-  margin:20px;
-  margin-left: 10px;
+
 }
 .block-left-sidebar-down{
   background-color: #777777;
   width:184px;
   height:134px;
-  float: left;
   margin-top: 85px;
 }
 .flex-container-rows span{
