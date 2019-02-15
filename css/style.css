@@ -1,6 +1,7 @@
 @import url(header/header.css);
 @import url(content/content.css);
 @import url(footer/footer.css);
+@import url(media/media.css);
 @font-face {
   font-family: Arial MT;
   src: url(../fonts/ari.ttf);

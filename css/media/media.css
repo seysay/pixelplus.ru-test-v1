@@ -1,0 +1,129 @@
+@media screen and (max-width: 480px) {
+  body{
+    min-width: 100%;
+  }
+  .wrapper {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .header {
+    min-width: 0;
+    max-width: 96%;
+    padding: 0 2%;
+    display: block;
+  }
+  .wrapper-block-logo {
+    display: block;
+
+    width: 10%;
+  }
+
+  .block-logo {
+    width: 100%;
+  }
+
+  .wrapper-block-logo-center {
+    display: block;
+    min-width: 100%;
+
+  }
+
+  .block-logo-center {
+    width: 100%;
+  }
+
+  .wrapper-block-logo-right {
+    display: block;
+    min-width: 96%;
+
+  }
+
+  .block-logo-right {
+    width: 100%;
+    min-width: 100%;
+    margin-top: 10px;
+  }
+
+  hr {
+    width: 96%;
+    margin: 10px 2%;
+  }
+  /*CONTENT*/
+  .content{
+    display: block;
+  }
+  .block-left-sidebar{
+    display: block;
+    width: 96%;
+    text-align: center;
+    margin-left: 2%;
+  }
+  .wrapper-block-left-sidebar{
+    height: auto;
+  }
+  .block-left-sidebar-down{
+    margin-left:2%;
+    margin-top: 10px;
+    width: 96%;
+  }
+  .wrapper-block-center-content{
+    height: auto;
+    width: 98%;
+    margin-left: 2%;
+  }
+  .block-center-content{
+    margin-left: 0;
+    margin-top: 0;
+    height: auto;
+    width: 98%;
+  }
+  .flex-container{
+    width:98%;
+  }
+  .flex-container-square {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .flex-container-2{
+    width: 98%;
+    flex: none;
+    margin:10px 0 10px 0;
+  }
+.flex-container-rows{
+  display: block;
+  height: auto;
+}
+  .footer{
+  min-width: 98%;
+    display: block;
+    margin-left: 10px;
+  }
+  .block-footer-left{
+    width: 96%;
+    height:230px;
+    margin-top: 10px;
+    padding-top:35px;
+    text-align: center;
+  }
+  .block-footer-center{
+    width: 96%;
+    margin-top: 10px;
+    height:230px;
+    margin-left: 0;
+    padding-top: 20px;
+    text-align: center;
+  }
+  .block-footer-right{
+    display: block;
+    width:98%;
+    position: static;
+  }
+  .block-footer-right div{
+    width: 98%;
+  }
+  .block-footer-right img{
+    margin-top: 10px;
+    width:98%;
+  }
+}
